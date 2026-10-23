@@ -72,7 +72,7 @@ The machine image building and golden image automation space forms a core segmen
 
 ## 🛠️ Open-Source GitHub Projects
 
-*Sorted by GitHub Stars_Counts (Descending)* 🌟
+*Sorted by GitHub_Stars_Counts (Descending)* 🌟
 
 - **[Packer](https://github.com/hashicorp/packer)** [![GitHub_Stars](https://img.shields.io/github/stars/hashicorp/packer?style=social&color=white)](https://github.com/hashicorp/packer/stargazers)  
   📦 **The multi-cloud machine image standard.** Builds identical machine images for AWS, Azure, GCP, VMware, VirtualBox, Docker, and more from a single HCL or JSON template. Features parallel builds across platforms, external plugin integrations, and HCP Packer integration for image lifecycle tracking. Best for teams requiring a single unified tool to produce golden images across multiple clouds and on-premise hypervisors.
@@ -119,7 +119,7 @@ The machine image building and golden image automation space forms a core segmen
 
 1. 🍴 Fork the repository.
 2. 📝 Add or update entries in `README.md` (keep entries factual, objective, and follow the existing format).
-3. 🔗 Include: name, official link, GitHub Stars_Badge, concise 1–2 sentence description, and primary use cases.
+3. 🔗 Include: name, official link, GitHub_Stars_Badge, concise 1–2 sentence description, and primary use cases.
 4. 🚀 Submit a Pull Request with a clear description of your additions!
 
 ⭐️ **Star the repo** if you find it helpful for your cloud & DevOps stack!
