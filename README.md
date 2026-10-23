@@ -1,46 +1,65 @@
-# Awesome-Machine-Image-Building
+# 🚀 Awesome Machine Image Building
 
-## Top Machine Image Building Ecosystem
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Machine Image Building Banner" width="100%" />
+</p>
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Machine-Image-Building/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Machine-Image-Building?style=social&color=white" alt="Repo Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Machine-Image-Building/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Machine-Image-Building?style=social&color=white" alt="Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Machine-Image-Building/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Machine-Image-Building?style=flat-square&color=blue" alt="Issues" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Machine-Image-Building/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+---
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+## 🌟 Top Machine Image Building Ecosystem
 
-*Focused on Golden Image Pipelines, Multi-Cloud Provisioning & Self-Hosted Build Tooling*  
+**Curated List of Production-Grade SaaS Platforms & Open-Source GitHub Projects for Automated Machine Images, Golden AMIs, OCI Containers & Virtual Machine Provisioning.**
 
-**Last updated: October 2026**
+*Focused on Golden Image Pipelines, Multi-Cloud Provisioning, Immutable Infrastructure & Self-Hosted Build Tooling.*
 
+📅 **Last updated: October 2026**
 
+---
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Machine Image Building**. These tools automate the creation of identical, reproducible system images—virtual machine templates, container images, and cloud AMIs—from a single source configuration, ensuring every deployment starts from the same hardened, patched baseline.
+### 📖 Overview & SEO Summary
 
+This repository indexes the world's most robust **SaaS platforms** and **open-source developer tools** for **Machine Image Building**, **Golden Image Automation**, and **Virtual Machine Image Pipelines**. In modern cloud engineering and DevOps, reproducible machine images (cloud AMIs, Azure VHDs, Google Compute Engine images, VMware VMDKs, OpenStack qcow2, and daemonless OCI/Docker containers) form the foundation of secure, immutable infrastructure.
 
+Whether you are seeking:
+- **Multi-Cloud VM Image Automation** (HashiCorp Packer, Red Hat Image Builder)
+- **Container-Native Image Builders** (Kaniko, BuildKit, Buildah, ko)
+- **Instance Cloud Initialization & First-Boot Customization** (cloud-init)
+- **Bare-Metal & Operating System Composition** (osbuild, diskimage-builder, bootc-image-builder)
+- **Continuous Integration VM Runner Provisioning** (actions/runner-images)
 
-**Examples** include HashiCorp Packer, AWS EC2 Image Builder, Azure Image Builder, Red Hat Image Builder, Kaniko, Buildah, and cloud-init (the category leaders).
+This directory serves as an authoritative guide for platform engineers, SREs, and DevOps architects seeking to eliminate configuration drift and accelerate CI/CD build pipelines.
 
+---
 
+## 📑 Table of Contents
 
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, avoiding cloud-specific vendor lock-in, and controlling the image pipeline. The open-source landscape is anchored by **Packer** (the multi-cloud image standard), **cloud-init** (the universal instance initialization layer), and **Buildah** (the daemonless OCI image builder), with specialized tools like **Kaniko** (Kubernetes-native container builds), **diskimage-builder** (OpenStack image composition), and **osbuild** (the engine behind Red Hat's Image Builder) serving specific ecosystem needs.
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS & Hosted Platforms](#️-saashosted-platforms)
+- [🛠️ Open-Source GitHub Projects](#️-open-source-github-projects)
+- [📈 Star History](#-star-history)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support](#-support)
+- [⚠️ Disclaimer](#️-disclaimer)
 
+---
 
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## Sector Overview & Market Dynamics
+## 📊 Sector Overview & Market Dynamics
 
 The machine image building and golden image automation space forms a core segment of the Infrastructure as Code (IaC) and cloud automation market, estimated at approximately **$1.5B to $2.0B in 2025–2026** and projected to surpass **$6B+ by 2030** (growing at ~24% CAGR). The market exhibits a **moderately concentrated, bifurcated structure**: hyperscale cloud providers (Microsoft, Amazon, Red Hat/IBM) capture native platform workloads with proprietary builders, while HashiCorp/IBM dominates multi-cloud golden image provisioning alongside open-source standards.
 
-## SaaS/Hosted Platforms
+---
+
+## ☁️ SaaS/Hosted Platforms
 
 | Product | Company Scale (Valuation / Revenue) | Description | Pricing | Free Tier Limit |
 | :--- | :--- | :--- | :--- | :--- |
@@ -49,96 +68,89 @@ The machine image building and golden image automation space forms a core segmen
 | **[Red Hat Image Builder](https://console.redhat.com/insights/image-builder)** | **~$34 Billion** acquisition by IBM (Parent IBM: **~$200B+** market cap / **~$62B** revenue) | Hosted service for creating RHEL-based images (AWS AMIs, Azure VHDs, VMware VMDKs, qcow2) with automatic patching and compliance profiles. | Included with RHEL subscriptions; RHEL Server self-support tier starts at **$383.90/year** (or standard support at **$878.90/year**) | **Free forever** via **Red Hat Developer Subscription for Individuals** (allows up to **16 physical or virtual nodes** for dev/testing) |
 | **[HCP Packer](https://www.hashicorp.com/products/packer)** | **~$6.4 Billion** acquisition valuation by IBM (Parent IBM: **~$200B+** market cap / **~$62B** revenue) | HashiCorp's managed registry for tracking Packer image metadata, lifecycle management, and Terraform integration. | **Essentials tier** starts at **$0.010/hour per image bucket** (~$7.30/bucket/month) + **$0.011/request**; Standard tier at **$0.034/hour per image bucket** | **$500 platform trial credit** (valid across HCP services on pay-as-you-go; no permanent free-forever SaaS tier) |
 
-## Open-Source GitHub Projects
+---
 
+## 🛠️ Open-Source GitHub Projects
 
+*Sorted by GitHub Star Counts (Descending)* 🌟
 
 - **[Packer](https://github.com/hashicorp/packer)** [![GitHub Stars](https://img.shields.io/github/stars/hashicorp/packer?style=social&color=white)](https://github.com/hashicorp/packer/stargazers)  
-
-  **The multi-cloud image standard.** Builds identical machine images for AWS, Azure, GCP, VMware, VirtualBox, Docker, and more from a single HCL or JSON template . **Features**: parallel builds across platforms, external plugin integrations, and HCP Packer integration for image lifecycle tracking. **Latest**: v1.14.4 (November 2025) . **Caveat**: community-maintained plugins can become unmaintained and archived by HashiCorp—verify plugin status before relying on niche platforms . Best for teams that need one tool to produce images across multiple clouds or on-prem hypervisors.
-
-
-
-- **[cloud-init](https://github.com/canonical/cloud-init)** [![GitHub Stars](https://img.shields.io/github/stars/canonical/cloud-init?style=social&color=white)](https://github.com/canonical/cloud-init/stargazers)  
-
-  **The universal instance initialization layer.** The de facto standard for early-stage boot configuration across cloud providers—handling network setup, user creation, SSH keys, package installation, and custom scripts . **Latest**: 24.3 adds AOSC and OpenEuler support, socket-based shared Python process for boot speed, and Azure ProxyAgent support . **Not a standalone builder**: typically paired with Packer or cloud platform image pipelines to bake first-boot configuration into golden images. Best for any image pipeline that needs instances to self-configure on first boot.
-
-
-
-- **[Buildah](https://github.com/containers/buildah)** [![GitHub Stars](https://img.shields.io/github/stars/containers/buildah?style=social&color=white)](https://github.com/containers/buildah/stargazers)  
-
-  **The daemonless OCI image builder.** Builds container images without requiring root privileges or a Docker daemon—follows a fork-exec model, not a daemon . **Key differentiator**: can build images with **or without Dockerfiles**, allowing integration of other scripting languages into the build process. **Relationship to Podman**: Buildah specializes in building; Podman specializes in running and managing. Podman uses Buildah's Golang API for Dockerfile builds . Best for teams wanting fine-grained control over container image creation without Docker's daemon overhead.
-
-
+  📦 **The multi-cloud machine image standard.** Builds identical machine images for AWS, Azure, GCP, VMware, VirtualBox, Docker, and more from a single HCL or JSON template. Features parallel builds across platforms, external plugin integrations, and HCP Packer integration for image lifecycle tracking. Best for teams requiring a single unified tool to produce golden images across multiple clouds and on-premise hypervisors.
 
 - **[Kaniko](https://github.com/GoogleContainerTools/kaniko)** [![GitHub Stars](https://img.shields.io/github/stars/GoogleContainerTools/kaniko?style=social&color=white)](https://github.com/GoogleContainerTools/kaniko/stargazers)  
+  ☸️ **The Kubernetes-native container builder.** Builds container images from a Dockerfile inside a container or Kubernetes cluster without requiring root privileges or a Docker daemon. Extracts base image filesystems, executes Dockerfile commands, snapshots changes in userspace, and pushes to a container registry. Best for CI/CD pipelines running in Kubernetes where mounting a Docker socket is prohibited.
 
-  **The Kubernetes-native container builder.** Builds container images from a Dockerfile inside a container or Kubernetes cluster—**no Docker daemon required** . **How it works**: extracts the base image filesystem, executes Dockerfile commands, snapshots changes in userspace, and pushes to a registry. **Limitations**: no Windows containers; cannot run in arbitrary Docker images (must use official Kaniko image); no v1 Registry API support . Best for CI pipelines running in Kubernetes where mounting a Docker socket is undesirable or impossible.
+- **[Runner-Images](https://github.com/actions/runner-images)** [![GitHub Stars](https://img.shields.io/github/stars/actions/runner-images?style=social&color=white)](https://github.com/actions/runner-images/stargazers)  
+  🏃 **GitHub Actions virtual machine runner images.** Official open-source repository containing Packer templates and deployment automation scripts used to build and provision the official virtual machine images (Ubuntu, macOS, Windows) for GitHub Actions hosted runners. Best for platform engineering teams replicating self-hosted GitHub Actions runners with identical toolchains.
 
+- **[BuildKit](https://github.com/moby/buildkit)** [![GitHub Stars](https://img.shields.io/github/stars/moby/buildkit?style=social&color=white)](https://github.com/moby/buildkit/stargazers)  
+  ⚡ **Concurrent, cache-efficient, Dockerfile-agnostic builder toolkit.** High-performance backend engine that powers modern `docker build` and standalone container construction. Features parallel build graph solver, fine-grained multi-stage caching, rootless execution, secrets mount support, and modular frontend parsers.
 
+- **[Buildah](https://github.com/containers/buildah)** [![GitHub Stars](https://img.shields.io/github/stars/containers/buildah?style=social&color=white)](https://github.com/containers/buildah/stargazers)  
+  🛡️ **The daemonless OCI container image builder.** Builds standard OCI container images without requiring root privileges or a running daemon using a clean fork-exec model. Uniquely capable of building container images with or without Dockerfiles directly via standard shell scripting and Unix CLI utilities.
+
+- **[ko](https://github.com/ko-build/ko)** [![GitHub Stars](https://img.shields.io/github/stars/ko-build/ko?style=social&color=white)](https://github.com/ko-build/ko/stargazers)  
+  🐹 **Simple, fast container image builder for Go applications.** Builds, packages, and pushes secure, minimal OCI-compliant container images without requiring Docker or any daemon. Operates directly on Go source code, automatically layering dependencies on top of distroless base images with zero Dockerfile configuration.
+
+- **[cloud-init](https://github.com/canonical/cloud-init)** [![GitHub Stars](https://img.shields.io/github/stars/canonical/cloud-init?style=social&color=white)](https://github.com/canonical/cloud-init/stargazers)  
+  🌐 **The universal instance initialization layer.** The de facto industry standard for early-stage boot configuration across cloud providers—handling network configuration, user creation, SSH key injection, package installation, and custom scripts. Typically baked directly into golden machine images via Packer to allow dynamic instance self-configuration.
+
+- **[Kubernetes Image-Builder](https://github.com/kubernetes-sigs/image-builder)** [![GitHub Stars](https://img.shields.io/github/stars/kubernetes-sigs/image-builder?style=social&color=white)](https://github.com/kubernetes-sigs/image-builder/stargazers)  
+  ⚙️ **Kubernetes VM image building tooling for Cluster API.** Maintained by the Kubernetes Special Interest Group (SIGs), this project provides automated Packer and Ansible templates to build production-ready VM images across 18+ infrastructure providers (AWS, Azure, GCP, vSphere, OpenStack, Nutanix) across Ubuntu, Flatcar, Rocky Linux, and RHEL.
+
+- **[bootc-image-builder](https://github.com/osbuild/bootc-image-builder)** [![GitHub Stars](https://img.shields.io/github/stars/osbuild/bootc-image-builder?style=social&color=white)](https://github.com/osbuild/bootc-image-builder/stargazers)  
+  🔄 **Containerfile to bootable disk image generator.** Transforms container images built with `bootc` (such as CentOS Stream / RHEL Image Mode) into bootable disk artifacts, including AWS AMIs, RAW disk images, ISO installers, and QCOW2 virtual disks. Enables pure container-native OS delivery.
 
 - **[diskimage-builder](https://github.com/openstack/diskimage-builder)** [![GitHub Stars](https://img.shields.io/github/stars/openstack/diskimage-builder?style=social&color=white)](https://github.com/openstack/diskimage-builder/stargazers)  
-
-  **The OpenStack image composition tool.** Flexible suite of components for building disk images, filesystem images, and ramdisk images for OpenStack (qcow2, raw) . **Element-based architecture**: images are composed from modular "elements" (package installs, post-install scripts, cleanup), allowing deep customization. **Supported platforms**: AlmaLinux, CentOS Stream, Debian, Fedora, RHEL, Rocky Linux, Ubuntu . Best for OpenStack operators and anyone needing scriptable, reproducible Linux disk images outside the major cloud builders.
-
-
+  📂 **The OpenStack disk image composition toolkit.** A modular suite of tools for building disk images, filesystem images, and ramdisks for OpenStack and bare-metal nodes. Uses an element-based modular architecture to inject software packages, configurations, and post-installation hooks into AlmaLinux, Debian, Fedora, RHEL, Rocky Linux, and Ubuntu disks.
 
 - **[osbuild](https://github.com/osbuild/osbuild)** [![GitHub Stars](https://img.shields.io/github/stars/osbuild/osbuild?style=social&color=white)](https://github.com/osbuild/osbuild/stargazers)  
-
-  **The engine behind Red Hat Image Builder.** A group of applications and APIs for building Linux OS images in an isolated, reliable way—ready for cloud providers, private hypervisors, or disk media . **Ecosystem**: osbuild-composer (high-level API), composer-cli (CLI client), and image-builder (console.redhat.com frontend) . Best for teams wanting the open-source engine that powers Red Hat's hosted builder, without requiring a RHEL subscription for the build tooling itself.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **kubernetes-sigs/image-builder** — Builds Kubernetes VM images for Cluster API across 18+ providers and multiple OSes (Ubuntu, Flatcar, Rocky, RHEL) with CI-tested combinations . Best for Cluster API users needing pre-built node images.
-
-- **bootc-image-builder** — Generates VM images (qcow2, AMI, ISO) from bootc container images. Best for teams adopting RHEL Image Mode / bootc workflows .
-
-- **Packer plugins** — The Packer ecosystem includes builders for AWS, Azure, GCP, VMware, Docker, and dozens more. Verify maintenance status before relying on niche plugins .
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- **Managed image builders are free but consume billable resources**: AWS EC2 Image Builder, Azure VM Image Builder, and Red Hat Image Builder do not charge for the service itself—you pay for the underlying compute, storage, and networking . Model the full resource cost.
-
-- **Red Hat Image Builder requires an active RHEL subscription**: the no-cost Developer Subscription is for development/testing only, not production .
-
-- **Kaniko has significant limitations**: no Windows containers, restricted execution environment, and no v1 Registry API support . Verify compatibility before adopting for existing pipelines.
-
-- **Packer plugin maintenance varies**: community plugins can be archived by HashiCorp; check the integration status before building a critical pipeline on a niche platform .
-
-
+  🏗️ **The modular engine behind Red Hat Image Builder.** A group of applications and APIs designed for assembling deterministic, isolated Linux operating system images ready for public cloud providers, private hypervisors, and raw hardware media.
 
 ---
 
+## 📈 Star History
 
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Machine-Image-Building&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Machine-Image-Building&type=date&legend=top-left)
 
-**Made for platform engineers, SREs, and DevOps teams building reproducible system images.**  
+---
 
-Let's make machine image building more open, multi-cloud, and reproducible.
+## 🤝 How to Contribute
+
+1. 🍴 Fork the repository.
+2. 📝 Add or update entries in `README.md` (keep entries factual, objective, and follow the existing format).
+3. 🔗 Include: name, official link, GitHub star badge, concise 1–2 sentence description, and primary use cases.
+4. 🚀 Submit a Pull Request with a clear description of your additions!
+
+⭐️ **Star the repo** if you find it helpful for your cloud & DevOps stack!
+
+---
+
+## 💖 Support
+
+Thank you for exploring and supporting **Awesome-Machine-Image-Building**! 
+
+If you found this curated ecosystem helpful in designing your golden image pipelines, provisioning cloud environments, or selecting build tooling:
+- ⭐️ **Star this repository** to help others discover it.
+- 🍴 **Fork and contribute** to keep the community list comprehensive and up-to-date.
+- 📢 **Share with your network**—colleagues, DevOps teams, SREs, and cloud architects.
+- ☕ **Buy me a coffee / Sponsor**: If you'd like to support ongoing maintenance and research, consider sponsoring via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+Every bit of support is deeply appreciated! 🙌
+
+---
+
+## ⚠️ Disclaimer
+
+- 📌 This is a **community-curated list** — not exhaustive and not an endorsement of specific vendors.
+- 💰 **Managed cloud image builders consume billable resources**: AWS EC2 Image Builder, Azure VM Image Builder, and Red Hat Image Builder do not charge a separate software license fee, but underlying compute, network egress, and disk storage are billed at standard cloud rates.
+- 📋 **Red Hat Image Builder requirements**: The no-cost Red Hat Developer Subscription is intended for development and testing workloads only; production usage requires an active commercial RHEL subscription.
+- 🔒 **Container Builder Limitations**: Builders like Kaniko and Buildah operate differently from standard Docker daemons (e.g., Kaniko lacks Windows container support); verify compatibility prior to production CI/CD adoption.
+- 🔌 **Packer Plugin Maintenance**: HashiCorp Packer community plugins vary in maintenance status—always review plugin repository activity before building mission-critical pipelines.
+
+---
+
+<p align="center">
+  <b>Built for platform engineers, SREs, and DevOps architects creating reproducible, hardened machine images.</b><br>
+  <i>Empowering multi-cloud, immutable, and automated infrastructure everywhere.</i>
+</p>
