@@ -30,33 +30,24 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The machine image building and golden image automation space forms a core segment of the Infrastructure as Code (IaC) and cloud automation market, estimated at approximately **$1.5B to $2.0B in 2025–2026** and projected to surpass **$6B+ by 2030** (growing at ~24% CAGR). The market exhibits a **moderately concentrated, bifurcated structure**: hyperscale cloud providers (Microsoft, Amazon, Red Hat/IBM) capture native platform workloads with proprietary builders, while HashiCorp/IBM dominates multi-cloud golden image provisioning alongside open-source standards.
 
 ## SaaS/Hosted Platforms
 
-
-
-| Product | Description | Pricing | Free Tier Limit |
-
-| :--- | :--- | :--- | :--- |
-
-| **[AWS EC2 Image Builder](https://aws.amazon.com/image-builder/)** | Managed service for building, testing, and distributing AMIs and container images with automated patching pipelines. | **No charge for the Image Builder service itself**; you pay only for the underlying EC2 instances, EBS storage, and data transfer consumed during builds . | **Free tier applies to consumed AWS resources** (e.g., 750 hours of t2.micro/t3.micro EC2, 30 GB EBS). Image Builder itself has no separate free tier limit—it is free to use . |
-
-| **[Azure VM Image Builder](https://azure.microsoft.com/en-us/products/image-builder/)** | Managed service built on HashiCorp Packer for creating Linux and Windows images with Azure-specific customizations (Sysprep, Compute Gallery integration). | **Free service**; you pay only for the build VM (Standard_D1_v2, 1 vCPU, 3.5 GiB RAM), temporary storage (~2.5x source image size during build), and networking egress . | **No separate free tier**—the service is free, but consumed Azure resources are billed at standard rates. New Azure accounts receive $200 credit for 30 days. |
-
-| **[Red Hat Image Builder](https://console.redhat.com/insights/image-builder)** | Hosted service for creating RHEL-based images (AWS AMIs, Azure VHDs, VMware VMDKs, qcow2) with automatic patching and compliance profiles. | Requires an **active Red Hat Enterprise Linux subscription**. Image Builder is included with RHEL subscriptions; no separate charge . | **No-cost Red Hat Developer Subscription for Individuals** provides access to Image Builder for development and testing . Not for production workloads. |
-
-| **[HCP Packer](https://www.hashicorp.com/products/packer)** | HashiCorp's managed registry for tracking Packer image metadata, lifecycle management, and Terraform integration. | **Essentials**: from **$0.010/hour per image bucket**; **Standard**: from **$0.034/hour per image bucket**. A $500 HCP trial credit is available . | **HCP Free tier** available with limited features (image metadata tracking, basic lifecycle). $500 trial credit for paid tiers . |
-
-
+| Product | Company Scale (Valuation / Revenue) | Description | Pricing | Free Tier Limit |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Azure VM Image Builder](https://azure.microsoft.com/en-us/products/image-builder/)** | **~$3.1 Trillion** market cap / **~$245B** annual revenue (Microsoft) | Managed service built on HashiCorp Packer for creating Linux and Windows images with Azure-specific customizations (Sysprep, Compute Gallery integration). | **$0 service fee** (Compute build resources start at **$0.096/hour** for Standard_D1_v2 VM + temporary storage & egress) | **30-day free trial** with **$200 credit**; no permanent free tier for consumed compute/storage |
+| **[AWS EC2 Image Builder](https://aws.amazon.com/image-builder/)** | **~$2.0 Trillion** market cap / **~$600B+** annual revenue (Amazon) | Managed service for building, testing, and distributing AMIs and container images with automated patching pipelines. | **$0 service fee** (Underlying resources billed at standard rates; e.g., t3.micro at **~$0.0104/hour** + **$0.08/GB-month** gp3 EBS) | **Free forever under AWS Free Tier**: **750 hours/month** of t2.micro/t3.micro EC2 and **30 GB** EBS storage |
+| **[Red Hat Image Builder](https://console.redhat.com/insights/image-builder)** | **~$34 Billion** acquisition by IBM (Parent IBM: **~$200B+** market cap / **~$62B** revenue) | Hosted service for creating RHEL-based images (AWS AMIs, Azure VHDs, VMware VMDKs, qcow2) with automatic patching and compliance profiles. | Included with RHEL subscriptions; RHEL Server self-support tier starts at **$383.90/year** (or standard support at **$878.90/year**) | **Free forever** via **Red Hat Developer Subscription for Individuals** (allows up to **16 physical or virtual nodes** for dev/testing) |
+| **[HCP Packer](https://www.hashicorp.com/products/packer)** | **~$6.4 Billion** acquisition valuation by IBM (Parent IBM: **~$200B+** market cap / **~$62B** revenue) | HashiCorp's managed registry for tracking Packer image metadata, lifecycle management, and Terraform integration. | **Essentials tier** starts at **$0.010/hour per image bucket** (~$7.30/bucket/month) + **$0.011/request**; Standard tier at **$0.034/hour per image bucket** | **$500 platform trial credit** (valid across HCP services on pay-as-you-go; no permanent free-forever SaaS tier) |
 
 ## Open-Source GitHub Projects
 
