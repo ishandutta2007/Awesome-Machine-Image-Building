@@ -72,39 +72,39 @@ The machine image building and golden image automation space forms a core segmen
 
 ## 🛠️ Open-Source GitHub Projects
 
-*Sorted by GitHub Star Counts (Descending)* 🌟
+*Sorted by GitHub Stars_Counts (Descending)* 🌟
 
-- **[Packer](https://github.com/hashicorp/packer)** [![GitHub Stars](https://img.shields.io/github/stars/hashicorp/packer?style=social&color=white)](https://github.com/hashicorp/packer/stargazers)  
+- **[Packer](https://github.com/hashicorp/packer)** [![GitHub_Stars](https://img.shields.io/github/stars/hashicorp/packer?style=social&color=white)](https://github.com/hashicorp/packer/stargazers)  
   📦 **The multi-cloud machine image standard.** Builds identical machine images for AWS, Azure, GCP, VMware, VirtualBox, Docker, and more from a single HCL or JSON template. Features parallel builds across platforms, external plugin integrations, and HCP Packer integration for image lifecycle tracking. Best for teams requiring a single unified tool to produce golden images across multiple clouds and on-premise hypervisors.
 
-- **[Kaniko](https://github.com/GoogleContainerTools/kaniko)** [![GitHub Stars](https://img.shields.io/github/stars/GoogleContainerTools/kaniko?style=social&color=white)](https://github.com/GoogleContainerTools/kaniko/stargazers)  
+- **[Kaniko](https://github.com/GoogleContainerTools/kaniko)** [![GitHub_Stars](https://img.shields.io/github/stars/GoogleContainerTools/kaniko?style=social&color=white)](https://github.com/GoogleContainerTools/kaniko/stargazers)  
   ☸️ **The Kubernetes-native container builder.** Builds container images from a Dockerfile inside a container or Kubernetes cluster without requiring root privileges or a Docker daemon. Extracts base image filesystems, executes Dockerfile commands, snapshots changes in userspace, and pushes to a container registry. Best for CI/CD pipelines running in Kubernetes where mounting a Docker socket is prohibited.
 
-- **[Runner-Images](https://github.com/actions/runner-images)** [![GitHub Stars](https://img.shields.io/github/stars/actions/runner-images?style=social&color=white)](https://github.com/actions/runner-images/stargazers)  
+- **[Runner-Images](https://github.com/actions/runner-images)** [![GitHub_Stars](https://img.shields.io/github/stars/actions/runner-images?style=social&color=white)](https://github.com/actions/runner-images/stargazers)  
   🏃 **GitHub Actions virtual machine runner images.** Official open-source repository containing Packer templates and deployment automation scripts used to build and provision the official virtual machine images (Ubuntu, macOS, Windows) for GitHub Actions hosted runners. Best for platform engineering teams replicating self-hosted GitHub Actions runners with identical toolchains.
 
-- **[BuildKit](https://github.com/moby/buildkit)** [![GitHub Stars](https://img.shields.io/github/stars/moby/buildkit?style=social&color=white)](https://github.com/moby/buildkit/stargazers)  
+- **[BuildKit](https://github.com/moby/buildkit)** [![GitHub_Stars](https://img.shields.io/github/stars/moby/buildkit?style=social&color=white)](https://github.com/moby/buildkit/stargazers)  
   ⚡ **Concurrent, cache-efficient, Dockerfile-agnostic builder toolkit.** High-performance backend engine that powers modern `docker build` and standalone container construction. Features parallel build graph solver, fine-grained multi-stage caching, rootless execution, secrets mount support, and modular frontend parsers.
 
-- **[Buildah](https://github.com/containers/buildah)** [![GitHub Stars](https://img.shields.io/github/stars/containers/buildah?style=social&color=white)](https://github.com/containers/buildah/stargazers)  
+- **[Buildah](https://github.com/containers/buildah)** [![GitHub_Stars](https://img.shields.io/github/stars/containers/buildah?style=social&color=white)](https://github.com/containers/buildah/stargazers)  
   🛡️ **The daemonless OCI container image builder.** Builds standard OCI container images without requiring root privileges or a running daemon using a clean fork-exec model. Uniquely capable of building container images with or without Dockerfiles directly via standard shell scripting and Unix CLI utilities.
 
-- **[ko](https://github.com/ko-build/ko)** [![GitHub Stars](https://img.shields.io/github/stars/ko-build/ko?style=social&color=white)](https://github.com/ko-build/ko/stargazers)  
+- **[ko](https://github.com/ko-build/ko)** [![GitHub_Stars](https://img.shields.io/github/stars/ko-build/ko?style=social&color=white)](https://github.com/ko-build/ko/stargazers)  
   🐹 **Simple, fast container image builder for Go applications.** Builds, packages, and pushes secure, minimal OCI-compliant container images without requiring Docker or any daemon. Operates directly on Go source code, automatically layering dependencies on top of distroless base images with zero Dockerfile configuration.
 
-- **[cloud-init](https://github.com/canonical/cloud-init)** [![GitHub Stars](https://img.shields.io/github/stars/canonical/cloud-init?style=social&color=white)](https://github.com/canonical/cloud-init/stargazers)  
+- **[cloud-init](https://github.com/canonical/cloud-init)** [![GitHub_Stars](https://img.shields.io/github/stars/canonical/cloud-init?style=social&color=white)](https://github.com/canonical/cloud-init/stargazers)  
   🌐 **The universal instance initialization layer.** The de facto industry standard for early-stage boot configuration across cloud providers—handling network configuration, user creation, SSH key injection, package installation, and custom scripts. Typically baked directly into golden machine images via Packer to allow dynamic instance self-configuration.
 
-- **[Kubernetes Image-Builder](https://github.com/kubernetes-sigs/image-builder)** [![GitHub Stars](https://img.shields.io/github/stars/kubernetes-sigs/image-builder?style=social&color=white)](https://github.com/kubernetes-sigs/image-builder/stargazers)  
+- **[Kubernetes Image-Builder](https://github.com/kubernetes-sigs/image-builder)** [![GitHub_Stars](https://img.shields.io/github/stars/kubernetes-sigs/image-builder?style=social&color=white)](https://github.com/kubernetes-sigs/image-builder/stargazers)  
   ⚙️ **Kubernetes VM image building tooling for Cluster API.** Maintained by the Kubernetes Special Interest Group (SIGs), this project provides automated Packer and Ansible templates to build production-ready VM images across 18+ infrastructure providers (AWS, Azure, GCP, vSphere, OpenStack, Nutanix) across Ubuntu, Flatcar, Rocky Linux, and RHEL.
 
-- **[bootc-image-builder](https://github.com/osbuild/bootc-image-builder)** [![GitHub Stars](https://img.shields.io/github/stars/osbuild/bootc-image-builder?style=social&color=white)](https://github.com/osbuild/bootc-image-builder/stargazers)  
+- **[bootc-image-builder](https://github.com/osbuild/bootc-image-builder)** [![GitHub_Stars](https://img.shields.io/github/stars/osbuild/bootc-image-builder?style=social&color=white)](https://github.com/osbuild/bootc-image-builder/stargazers)  
   🔄 **Containerfile to bootable disk image generator.** Transforms container images built with `bootc` (such as CentOS Stream / RHEL Image Mode) into bootable disk artifacts, including AWS AMIs, RAW disk images, ISO installers, and QCOW2 virtual disks. Enables pure container-native OS delivery.
 
-- **[diskimage-builder](https://github.com/openstack/diskimage-builder)** [![GitHub Stars](https://img.shields.io/github/stars/openstack/diskimage-builder?style=social&color=white)](https://github.com/openstack/diskimage-builder/stargazers)  
+- **[diskimage-builder](https://github.com/openstack/diskimage-builder)** [![GitHub_Stars](https://img.shields.io/github/stars/openstack/diskimage-builder?style=social&color=white)](https://github.com/openstack/diskimage-builder/stargazers)  
   📂 **The OpenStack disk image composition toolkit.** A modular suite of tools for building disk images, filesystem images, and ramdisks for OpenStack and bare-metal nodes. Uses an element-based modular architecture to inject software packages, configurations, and post-installation hooks into AlmaLinux, Debian, Fedora, RHEL, Rocky Linux, and Ubuntu disks.
 
-- **[osbuild](https://github.com/osbuild/osbuild)** [![GitHub Stars](https://img.shields.io/github/stars/osbuild/osbuild?style=social&color=white)](https://github.com/osbuild/osbuild/stargazers)  
+- **[osbuild](https://github.com/osbuild/osbuild)** [![GitHub_Stars](https://img.shields.io/github/stars/osbuild/osbuild?style=social&color=white)](https://github.com/osbuild/osbuild/stargazers)  
   🏗️ **The modular engine behind Red Hat Image Builder.** A group of applications and APIs designed for assembling deterministic, isolated Linux operating system images ready for public cloud providers, private hypervisors, and raw hardware media.
 
 ---
@@ -119,7 +119,7 @@ The machine image building and golden image automation space forms a core segmen
 
 1. 🍴 Fork the repository.
 2. 📝 Add or update entries in `README.md` (keep entries factual, objective, and follow the existing format).
-3. 🔗 Include: name, official link, GitHub star badge, concise 1–2 sentence description, and primary use cases.
+3. 🔗 Include: name, official link, GitHub Stars_Badge, concise 1–2 sentence description, and primary use cases.
 4. 🚀 Submit a Pull Request with a clear description of your additions!
 
 ⭐️ **Star the repo** if you find it helpful for your cloud & DevOps stack!
